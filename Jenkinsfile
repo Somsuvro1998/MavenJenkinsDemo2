@@ -17,11 +17,11 @@ pipeline {
                 echo 'Deploy App'
             }
         }
+        
     }
-    post {
-
-        always {
-            emailext body: 'Summary', subject: 'Pipeline Status', to: 'palz.somsuvro@gmail.com'
+    post{
+        always{
+            emailext body: 'Please find the build url <Enter Build URL> .', subject: 'Pipeline Status', to: 'palz.somsuvro@gmail.com, somsuvro.pal@gmail.com'
         }
     }
 }
