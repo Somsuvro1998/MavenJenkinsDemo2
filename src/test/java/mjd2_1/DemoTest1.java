@@ -14,6 +14,7 @@ public class DemoTest1 {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.microsoft.com/en-in/");
+		//closing browser
 		driver.close();
 		
 	}
