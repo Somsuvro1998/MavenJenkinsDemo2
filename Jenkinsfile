@@ -21,7 +21,7 @@ pipeline {
     }
     post{
         always{
-            emailext body: 'Please find the build url <Enter Build URL> .', subject: 'Pipeline Status', to: 'palz.somsuvro@gmail.com, somsuvro.pal@gmail.com'
+            emailext body: 'Please find the build url <Enter Build URL> .', subject: 'Pipeline Status', to: 'palz.somsuvro@gmail.com'
         }
     }
 }
