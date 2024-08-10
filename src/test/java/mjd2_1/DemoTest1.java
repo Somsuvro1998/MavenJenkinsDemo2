@@ -12,8 +12,11 @@ public class DemoTest1 {
 	{
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
+		System.out.println("Launching Browser");
 		driver.manage().window().maximize();
+		System.out.println("Opening Microsoft");
 		driver.get("https://www.microsoft.com/en-in/");
+		System.out.println("Closing Browsing");
 		driver.close();
 		
 	}
