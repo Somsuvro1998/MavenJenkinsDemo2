@@ -17,6 +17,7 @@ public class DemoTest1 {
 		System.out.println("Opening Microsoft");
 		driver.get("https://www.microsoft.com/en-in/");
 		System.out.println("Closing Browsing");
+		//closing browser
 		driver.close();
 		
 	}
